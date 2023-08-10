@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_page</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="part1"  id="page1">
+        <form>
+            <label for="First Name">First Name:</label>
+            <br>
+            <input type="text" id="fname" required placeholder="first name...">
+            <br>
+            <label for="Last Name"> Last Name:</label>
+            <br>
+            <input type="text" id="lname" required placeholder="last name...">
+            <br>
+            <label for="Phone No">Phone No:</label>
+            <br>
+            <input type="text" id="phone" placeholder="phone no...">
+            <br>
+            <button type="button" class="button2" onclick="showpage2()">Next</button>
+        </form>
+    </div>
+
+    <div class="part1" id="page2">
+        <form>
+            <label for="Father Name"> Father Name:</label>
+            <br>
+            <input type="text" id="fathername" placeholder="Father Name">
+            <br>
+            <label for="Mother Name"> Mother Name:</label>
+            <br>
+            <input type="text" id="mothername" placeholder='Mother Name'>
+            <br>
+            <button type="button" class="button1" onclick="showpage1()">Prev</button>
+            <button type="submit" class="button2">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
